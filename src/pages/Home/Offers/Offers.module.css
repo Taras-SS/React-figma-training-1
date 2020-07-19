@@ -1,0 +1,52 @@
+.wrapper{
+    margin: 40px auto 40px auto;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.offerItem{
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(60px);
+    padding-top: 30px;
+    width: 430px;
+    margin: 0 25px 0 25px;
+}
+
+.offerItem div{
+    padding-left: 40px;
+    padding-right: 60px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.offerItem div:last-child{
+    margin-bottom: 60px;
+}
+
+.offerTitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    width: 100%;
+}
+
+.offerItem:first-child .titleWrapper{
+    border-left: 3px solid #5B24B3;
+}
+
+.offerItem:last-child .titleWrapper{
+    border-left: 3px solid #F55345;
+}
+
+.offerDescription{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}

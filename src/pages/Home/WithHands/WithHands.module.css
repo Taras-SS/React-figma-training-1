@@ -1,0 +1,74 @@
+.wrapper{
+    position: relative;
+}
+
+.firstImgLine{
+    background: url("../../../assets/images/Hand.png") repeat;
+    background-size: 250px auto;
+    margin-left: -130px;
+    height: 250px;
+}
+
+.secondImgLine{
+    background: url("../../../assets/images/Hand.png") repeat;
+    background-size: 250px auto;
+    margin-left: 50px;
+    height: 250px;
+}
+
+.thirdImgLine{
+    background: url("../../../assets/images/Hand.png") repeat;
+    background-size: 250px auto;
+    margin-left: -80px;
+    height: 250px;
+}
+
+.textBlock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textBlock a{
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: 0.03em;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    width: 100vw;
+    text-align: center;
+}
+
+.cutBottomText{
+    height: 40px;
+    overflow-y: hidden;
+}
+
+.darkText{
+    color: black !important;
+    margin-top: -7px;
+}
+
+.cutTop{
+    margin-top: -5px;
+    height: 40px;
+    overflow-y: hidden;
+}
+
+.yellowCircle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FFCC00;
+    width: 330px;
+    height: 330px;
+    left: 21%;
+    top: 30%;
+    z-index: -1;
+}

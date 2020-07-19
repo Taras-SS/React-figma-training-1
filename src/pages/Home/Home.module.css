@@ -1,0 +1,44 @@
+.blogOfferWrapper{
+    position: relative;
+}
+
+.heartAndEyeImage{
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-18.38deg);
+    top: 36%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.rightBlueShadow, .leftBlueShadow, .rightRedShadow, .leftRedShadow{
+    position: absolute;
+    width: 419px;
+    height: 419px;
+    filter: blur(100px);
+}
+
+.rightBlueShadow{
+    right: 0;
+    top: 50%;
+    background: linear-gradient(157.22deg, rgba(91, 36, 179, 0.2) 2.37%, rgba(0, 178, 255, 0.2) 85.21%);
+}
+
+.leftBlueShadow{
+    top: 10%;
+    left: 0;
+    background: linear-gradient(157.22deg, rgba(91, 36, 179, 0.2) 2.37%, rgba(0, 178, 255, 0.2) 85.21%);
+}
+
+.rightRedShadow{
+    right: 0;
+    top: -25%;
+    background: linear-gradient(157.22deg, rgba(245, 83, 69, 0.2555) 2.37%, rgba(91, 36, 179, 0.2205) 85.21%);
+}
+
+.leftRedShadow{
+    left: 0;
+    top: 78%;
+    background: linear-gradient(157.22deg, rgba(245, 83, 69, 0.2555) 2.37%, rgba(91, 36, 179, 0.2205) 85.21%);
+}
+

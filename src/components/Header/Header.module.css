@@ -1,0 +1,40 @@
+.header {
+    background: rgba(245, 245, 245, 0.3);
+    border: 1px solid #EDEDED;
+}
+
+.headerMenu{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.headerMenu li:first-child{
+    position: relative;
+}
+
+.headerMenu li:first-child a{
+    font-weight: 900;
+    font-family: Montserrat;
+    color: #2C3A5C;
+    position: static;
+}
+
+.headerMenu li:first-child img{
+    position: absolute;
+    left: 78.22%;
+    top: -32%;
+    z-index: -1;
+}
+
+.headerMenu li:not(:first-child){
+    color: rgba(44, 58, 92, 0.5);
+}
+
+.headerMenu li:last-child{
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: #2C3A5C;
+}

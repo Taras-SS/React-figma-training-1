@@ -1,0 +1,134 @@
+.wrapper{
+    margin: 30px auto 50px auto;
+    width: 80%;
+}
+
+.upperTextWrapper{
+    margin-bottom: 12px !important;
+}
+
+.blogTitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.seeAllText{
+    color: #5B24B3;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 215%;
+    display: flex;
+    align-items: center;
+}
+
+.seeAllText img{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.upperTextWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.blogItemWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.blogItem{
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(60px);
+    width: 430px;
+    margin: 0 25px 0 25px;
+}
+
+.blogItem div{
+    margin: 0 auto 20px auto;
+}
+
+.blogItem div:not(.mediumWrapper) span{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blogItem div:first-child{
+    margin-top: 40px;
+    border-left: 3px solid #212121;
+}
+
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.mainText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 156.9%;
+    color: #606060;
+}
+
+.mediumWrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom:  1px solid #E1E1E1;
+}
+
+.mediumWrapper span:first-child{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.readOnMediumText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.dateWrapper span{
+    width: 100%;
+    margin: 0;
+}
+
+.dateWrapper{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6A6A6A;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.dateWrapper span:last-child{
+    text-align: right;
+}
